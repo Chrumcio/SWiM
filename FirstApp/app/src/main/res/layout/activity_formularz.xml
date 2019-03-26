@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Formularz"
+    >
+
+    <RadioGroup
+        android:id="@+id/rgroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true">
+
+    <RadioButton
+        android:id="@+id/radio1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/rgroup"
+        android:layout_below="@id/rgroup"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/r1op"
+        android:onClick="wypisz"
+        />
+
+    <RadioButton
+        android:id="@+id/radio2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/radio1"
+        android:layout_below="@id/radio1"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="36dp"
+        android:text="@string/r2op"
+        android:onClick="wypisz"
+        />
+    </RadioGroup>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/rgroup"
+        android:layout_below="@id/rgroup"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="36dp"
+        android:id="@+id/name"
+        android:ems="10"
+        android:hint="@string/imie"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/name"
+        android:layout_below="@id/name"
+        android:layout_marginTop="10dp"
+        android:id="@+id/surname"
+        android:ems="10"
+        android:hint="@string/nazwisko"
+        android:inputType="text"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dzien"
+        android:layout_alignLeft="@id/surname"
+        android:layout_below="@id/surname"
+        android:entries="@array/day"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/miesiac"
+        android:layout_alignLeft="@id/surname"
+        android:layout_below="@id/surname"
+        android:layout_marginLeft="60dp"
+        android:entries="@array/months"
+        />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rok"
+        android:layout_alignLeft="@id/surname"
+        android:layout_below="@id/surname"
+        android:layout_marginLeft="180dp"
+        android:entries="@array/year"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check1"
+        android:layout_alignLeft="@id/dzien"
+        android:layout_below="@id/dzien"
+        android:layout_marginTop="10dp"
+        android:text="@string/pilkanozna"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check2"
+        android:layout_alignLeft="@id/check1"
+        android:layout_below="@id/check1"
+        android:text="@string/siatkowka"
+        />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/check3"
+        android:layout_alignLeft="@id/check2"
+        android:layout_below="@id/check2"
+        android:text="@string/koszykowka"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:layout_alignLeft="@id/check3"
+        android:layout_below="@id/check3"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/b3name"
+        android:onClick="wypisz"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/output"
+            android:layout_alignLeft="@id/check3"
+            android:layout_below="@id/button3"
+            android:textSize="35dp"
+            android:layout_marginTop="10dp"
+            />
+</RelativeLayout>
+</ScrollView>
