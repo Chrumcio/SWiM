@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Zadanie2</string>
+    <string name="przycisk1">Lista prosta</string>
+    <string name="przycisk2">Lista multichoice</string>
+    <string name="przycisk3">Grid</string>
+    <string name="przycisk4">Lista 3</string>
+    <string name="tekst1">Lista prosta</string>
+    <string name="tekst2">Lista multichoice</string>
+    <string name="tekst4">Lista dostosowana</string>
+</resources>
