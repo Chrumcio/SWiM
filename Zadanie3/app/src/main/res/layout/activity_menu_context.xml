@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuContextActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Przyciśnij mnie dłużej"
+        android:id="@+id/buttoncontextmenu"
+        />
+
+    <ImageView
+        android:layout_below="@id/buttoncontextmenu"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imagecon1"
+        android:src="@drawable/pumpkin"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imagecon2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/imagecon1"
+        android:src="@drawable/cello"
+        />
+
+
+</RelativeLayout>

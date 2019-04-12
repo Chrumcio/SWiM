@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/item_option1"
+        android:title="Image 1"
+        >
+        <menu>
+            <item
+                android:id="@+id/item_option2"
+                android:title="Rotate left 3 times"/>
+            <item
+                android:id="@+id/item_option3"
+                android:title="Rotate right 3 times"/>
+            <item
+                android:id="@+id/item_option4"
+                android:title="Rotate 180 degrees"/>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/item_option5"
+        android:title="Image 2">
+        <menu>
+            <item
+                android:id="@+id/item_option6"
+                android:title="Set new image - lion"/>
+            <item
+                android:id="@+id/item_option7"
+                android:title="Set new image - watch"/>
+            <item
+                android:id="@+id/item_option8"
+                android:title="Set new image - Android icon"/>
+        </menu>
+    </item>
+</menu>

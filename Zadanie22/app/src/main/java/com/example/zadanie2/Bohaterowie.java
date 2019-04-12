@@ -20,10 +20,6 @@ public class Bohaterowie extends AppCompatActivity {
         heroList.add(new Hero(R.drawable.batman,"Batman","Justice League"));
         heroList.add(new Hero(R.drawable.kapitanameryka,"Kapitan Ameryka","Avengers"));
         heroList.add(new Hero(R.drawable.doktorstrange,"Doktor Strange","Avengers"));
-        heroList.add(new Hero(R.drawable.ironman,"Iron Man","Avengers"));
-        heroList.add(new Hero(R.drawable.joker,"Joker","Justice League"));
-        heroList.add(new Hero(R.drawable.spiderman,"Spiderman","Avengers"));
-
         listView = (ListView)findViewById(R.id.listview);
         MyCustomListAdapter adapter = new MyCustomListAdapter(this,R.layout.my_list_item,heroList);
         listView.setAdapter(adapter);

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action1"
+        android:title="Akcja1"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action2"
+        android:title="Akcja2"
+        android:orderInCategory="100"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action3"
+        android:title="Akcja3"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+        <menu>
+            <group
+                android:checkableBehavior="single">
+                <item android:id="@+id/action3_sub1"
+                    android:title="Akcja3_Sub1"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+
+                <item android:id="@+id/action3_sub2"
+                    android:title="Akcja3_Sub2"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+
+                <item android:id="@+id/action3_sub3"
+                    android:title="Akcja3_Sub3"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:id="@+id/action4"
+        android:title="Akcja4"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+
+        <menu>
+            <group
+                android:checkableBehavior="all">
+                <item android:id="@+id/action4_sub1"
+                    android:orderInCategory="100"
+                    android:title="Akcja4_Sub1"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action4_sub2"
+                    android:title="Akcja4_Sub2"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action4_sub3"
+                    android:title="Akcja4_Sub3"
+                    android:orderInCategory="100"
+                    app:showAsAction="never"/>
+            </group>
+        </menu>
+    </item>
+</menu>

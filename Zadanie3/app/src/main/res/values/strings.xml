@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Zadanie3</string>
+    <string name="button1">Menu XML</string>
+    <string name="button2">Submenu</string>
+    <string name="button3">Menu Java</string>
+    <string name="button4">Menu kontekstowe</string>
+    <string name="button5">Menu tryb kontekstwoy akcji</string>
+    <string name="button6">Menu chackable</string>
+    <string name="textXML1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </string>
+    <string name="textXML2">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</string>
+    <string name="textSub1">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="textSub2">It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</string>
+
+    
+    <string-array name="fruits">
+        <item>Apple</item>
+        <item>Orange</item>
+        <item>Grapes</item>
+        <item>Kiwi</item>
+        <item>Banana</item>
+        <item>Cherries</item>
+        <item>Mango</item>
+        <item>Tomato</item>
+        <item>Watermelon</item>
+        <item>Jackfruit</item>
+    </string-array>
+
+</resources>
