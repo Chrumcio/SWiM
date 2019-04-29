@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    tools:context=".KotFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Podaj rasę kota"
+            android:id="@+id/rasa_kota"
+            android:inputType="text"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/rasa_kota"
+            android:layout_below="@id/rasa_kota"
+            android:hint="Podaj wiek kota"
+            android:id="@+id/wiek_kota"
+            android:inputType="number"
+            />
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/wiek_kota"
+            android:layout_below="@id/wiek_kota"
+            android:hint="Podaj imię kota"
+            android:id="@+id/imie_kota"
+            android:inputType="text"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/kot_create"
+            android:layout_below="@id/imie_kota"
+            android:layout_alignLeft="@id/imie_kota"
+            android:text="Wyślij"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/kot_create"
+            android:layout_alignLeft="@id/kot_create"
+            android:id="@+id/danekotow"
+            />
+    </RelativeLayout>
+
+</FrameLayout>

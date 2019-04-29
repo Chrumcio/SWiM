@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PiesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Podaj rasę psa"
+        android:id="@+id/rasa_psa"
+        android:inputType="text"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/rasa_psa"
+        android:layout_below="@id/rasa_psa"
+        android:hint="Podaj wiek psa"
+        android:id="@+id/wiek_psa"
+        android:inputType="number"
+        />
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/wiek_psa"
+        android:layout_below="@id/wiek_psa"
+        android:hint="Podaj imię psa"
+        android:id="@+id/imie_psa"
+        android:inputType="text"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pies_create"
+        android:layout_below="@id/imie_psa"
+        android:layout_alignLeft="@id/imie_psa"
+        android:text="Wyślij"
+
+        />
+
+    </RelativeLayout>
+</FrameLayout>
