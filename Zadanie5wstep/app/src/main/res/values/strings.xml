@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Zadanie5wstep</string>
+    <string name="light_status">Light status</string>
+    <string name="txt_avail">Avail</string>
+    <string name="txt_unvail">Unvail</string>
+    <string name="accel_status">Accel status</string>
+    <string name="gps_status">GPS status</string>
+</resources>
