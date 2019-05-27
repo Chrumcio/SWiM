@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_view"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:text=""
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="100dp"
+        android:paddingTop="30dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/startbutton"
+        android:text="START"
+        app:layout_constraintTop_toBottomOf="@id/time_view"
+        app:layout_constraintLeft_toLeftOf="@id/time_view"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/stopbutton"
+        android:text="STOP"
+        app:layout_constraintTop_toBottomOf="@id/startbutton"
+        app:layout_constraintLeft_toLeftOf="@id/startbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/savebutton"
+        android:text="ZAPISZ"
+        app:layout_constraintTop_toBottomOf="@id/stopbutton"
+        app:layout_constraintLeft_toLeftOf="@id/stopbutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearbutton"
+        android:text="CLEAR"
+        app:layout_constraintTop_toBottomOf="@id/savebutton"
+        app:layout_constraintLeft_toLeftOf="@id/savebutton"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listbutton"
+        android:text="LIST"
+        app:layout_constraintTop_toBottomOf="@id/clearbutton"
+        app:layout_constraintLeft_toLeftOf="@id/clearbutton"
+        />
+
+</android.support.constraint.ConstraintLayout>
